@@ -6,7 +6,7 @@
     }
   },
   "routes": {
-    "/user/": "index.html",
+    "/login/": "index.html",
     "/sample/": "sample.html"
   }
 }
