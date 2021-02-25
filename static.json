@@ -2,6 +2,13 @@
   "headers": {
     "/**": {
       "X-Author": "dudvik",
+      "Access-Control-Allow-Origin": "*"
+      },
+    "/login/*": {
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/plain; charset=UTF-8"
+    },
+    "/sample/*": {
       "Access-Control-Allow-Origin": "*",
       "Content-Type": "text/plain; charset=UTF-8"
     }
