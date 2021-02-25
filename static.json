@@ -1,9 +1,12 @@
 {
   "headers": {
     "/**": {
+      
+      "X-Content-Type-Options": "nosniff"
       "X-Author": "dudvik",
       "Access-Control-Allow-Origin": "*",
-      "Content-Type": "text/plain; charset=UTF-8"
+      "Content-Type": "text/plain; charset=UTF-8",
+      
       }
   },
   "routes": {
