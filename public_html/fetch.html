@@ -7,23 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-    <form name="week3">
-        <p><input type="text" id="inp">
-        <input type="button" value="Button" id="bt">
-        </p>
-    </form>
-    <script>
-        function send(){
-            fetch(document.getElementById("inp").value)
-            .then((response) => {
-	            return response.text(); 
-            })
-            .then((data) => {
-                document.getElementById("inp").value = data;
-            });
-            }
-        const button = document.getElementById("bt");
-        button.addEventListener("click", send);
-    </script>
+<input type="text" id="inp">
+<input type="button" value="Button" id="bt">
+<script>
+    const button = document.getElementById("bt");
+    button.addEventListener("click", send);
+    function send(){
+        fetch(document.getElementById("inp").value)
+        .then(response => response.text())
+        .then(data => document.getElementById("inp").value = data)
+    }
+        
+</script>
 </body>
 </html>
